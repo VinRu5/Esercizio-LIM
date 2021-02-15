@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+}
+
+.background {
+  width: 650px;
+  height: 650px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+header > img {
+  width: 200px;
+  height: 100px;
+  display:block;
+  margin:0px auto;
+  text-align:center;
+}
+
+.titolo {
+  color: #00dd00;
+  text-align: center;
+  font-size: 25px;
+}
+
+.rettangolo {
+  width: auto;
+  height: 40px;
+  background-color: #00dd00;
+  text-align: center;
+  line-height: 40px;
+}
+
+section > h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.monopattino {
+  color: white;
+}
+
+.scarica {
+  background-color: rgb(177,	74,	70);
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.carica {
+  background-color: rgb(93, 190,	64);
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.media {
+  background-color: rgb(236, 181, 100);
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+}
